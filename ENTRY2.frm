@@ -1,0 +1,1003 @@
+VERSION 5.00
+Begin VB.Form entry2 
+   BorderStyle     =   1  'Fixed Single
+   Caption         =   "Entry2"
+   ClientHeight    =   7695
+   ClientLeft      =   45
+   ClientTop       =   675
+   ClientWidth     =   15510
+   LinkTopic       =   "Form1"
+   MaxButton       =   0   'False
+   MouseIcon       =   "ENTRY2.frx":0000
+   MousePointer    =   99  'Custom
+   ScaleHeight     =   7695
+   ScaleWidth      =   15510
+   StartUpPosition =   2  'CenterScreen
+   Begin VB.CommandButton Command1 
+      Caption         =   "Search Details"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   12
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   390
+      Left            =   13560
+      TabIndex        =   41
+      Top             =   6360
+      Width           =   1575
+   End
+   Begin VB.TextBox Text12 
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   12000
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   11
+      Text            =   "Text12"
+      Top             =   5640
+      Width           =   2175
+   End
+   Begin VB.TextBox Text1 
+      DataField       =   "Reegistration Number"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   3720
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   10
+      Text            =   "Text1"
+      Top             =   1320
+      Width           =   2415
+   End
+   Begin VB.TextBox Text2 
+      DataField       =   "Patient Name"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   3720
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   9
+      Text            =   "Text2"
+      Top             =   2160
+      Width           =   2415
+   End
+   Begin VB.TextBox Text3 
+      DataField       =   "Patient address"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   360
+      Left            =   3720
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   8
+      Text            =   "Text3"
+      Top             =   3000
+      Width           =   2415
+   End
+   Begin VB.TextBox Text4 
+      DataField       =   "Martial status"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   3720
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   7
+      Text            =   "Text4"
+      Top             =   3720
+      Width           =   2415
+   End
+   Begin VB.TextBox Text5 
+      DataField       =   "Religion"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   3720
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   6
+      Text            =   "Text5"
+      Top             =   4560
+      Width           =   2415
+   End
+   Begin VB.TextBox Text6 
+      DataField       =   "Father's / husband's name"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   3720
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   5
+      Text            =   "Text6"
+      Top             =   5400
+      Width           =   2415
+   End
+   Begin VB.TextBox Text7 
+      DataField       =   "Registration date"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   12000
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   4
+      Text            =   "Text7"
+      Top             =   1320
+      Width           =   2655
+   End
+   Begin VB.TextBox Text8 
+      DataField       =   "City"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   12000
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   3
+      Text            =   "Text8"
+      Top             =   2160
+      Width           =   2655
+   End
+   Begin VB.TextBox Text9 
+      DataField       =   "Telephone / mobile number"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   12000
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   2
+      Text            =   "Text9"
+      Top             =   3000
+      Width           =   2655
+   End
+   Begin VB.TextBox Text10 
+      DataField       =   "Status"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   12000
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   1
+      Text            =   "Text10"
+      Top             =   4080
+      Width           =   2655
+   End
+   Begin VB.TextBox Text11 
+      DataField       =   "Age"
+      DataSource      =   "Data1"
+      BeginProperty Font 
+         Name            =   "Monotype Corsiva"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   12000
+      MousePointer    =   3  'I-Beam
+      TabIndex        =   0
+      Text            =   "Text11"
+      Top             =   4800
+      Width           =   2175
+   End
+   Begin VB.Label Label2 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Patient_ID"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   615
+      Left            =   0
+      TabIndex        =   39
+      Top             =   1200
+      Width           =   3615
+   End
+   Begin VB.Label Label3 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Patient Name "
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   495
+      Left            =   120
+      TabIndex        =   38
+      Top             =   2040
+      Width           =   2415
+   End
+   Begin VB.Label Label4 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Paitent Address"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   495
+      Left            =   120
+      TabIndex        =   37
+      Top             =   2880
+      Width           =   2895
+   End
+   Begin VB.Label Label5 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Martial Status"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   495
+      Left            =   120
+      TabIndex        =   36
+      Top             =   3600
+      Width           =   2775
+   End
+   Begin VB.Label Label7 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Religion"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   495
+      Left            =   240
+      TabIndex        =   35
+      Top             =   4560
+      Width           =   1695
+   End
+   Begin VB.Label Label8 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Father's / Husband's Name"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   975
+      Left            =   120
+      TabIndex        =   34
+      Top             =   5160
+      Width           =   3735
+   End
+   Begin VB.Label Label9 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Registration Date"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   735
+      Left            =   7560
+      TabIndex        =   33
+      Top             =   1200
+      Width           =   3255
+   End
+   Begin VB.Label Label10 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "City"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   495
+      Left            =   7680
+      TabIndex        =   32
+      Top             =   2040
+      Width           =   975
+   End
+   Begin VB.Label Label11 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Telephone / Mobile Number"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   1095
+      Left            =   7560
+      TabIndex        =   31
+      Top             =   3000
+      Width           =   3255
+   End
+   Begin VB.Label Label12 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Gender"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   615
+      Left            =   7560
+      TabIndex        =   30
+      Top             =   4080
+      Width           =   1215
+   End
+   Begin VB.Label Label14 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Age"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   615
+      Left            =   7560
+      TabIndex        =   29
+      Top             =   4800
+      Width           =   1335
+   End
+   Begin VB.Shape Shape1 
+      BackColor       =   &H8000000D&
+      BackStyle       =   1  'Opaque
+      FillColor       =   &H000000FF&
+      FillStyle       =   7  'Diagonal Cross
+      Height          =   615
+      Left            =   120
+      Shape           =   4  'Rounded Rectangle
+      Top             =   6240
+      Width           =   15135
+   End
+   Begin VB.Label Label1 
+      BackStyle       =   0  'Transparent
+      Caption         =   "Dr.name"
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   615
+      Left            =   7680
+      TabIndex        =   28
+      Top             =   5640
+      Width           =   1575
+   End
+   Begin VB.Label Label18 
+      BackStyle       =   0  'Transparent
+      Caption         =   "LAMJUNG HOSPITAL"
+      BeginProperty Font 
+         Name            =   "Rosewood Std Regular"
+         Size            =   27.75
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H000000FF&
+      Height          =   495
+      Left            =   5280
+      TabIndex        =   27
+      Top             =   0
+      Width           =   4935
+   End
+   Begin VB.Label Label19 
+      BackStyle       =   0  'Transparent
+      Caption         =   "Besishahar, Lamjung"
+      BeginProperty Font 
+         Name            =   "Papyrus"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Left            =   6000
+      TabIndex        =   26
+      Top             =   600
+      Width           =   3015
+   End
+   Begin VB.Label Label15 
+      BackColor       =   &H80000003&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Yrs."
+      BeginProperty Font 
+         Name            =   "Matura MT Script Capitals"
+         Size            =   18
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   495
+      Left            =   14280
+      TabIndex        =   25
+      Top             =   4800
+      Width           =   975
+   End
+   Begin VB.Line Line1 
+      BorderColor     =   &H000000C0&
+      BorderStyle     =   2  'Dash
+      X1              =   0
+      X2              =   15255
+      Y1              =   1200
+      Y2              =   1215
+   End
+   Begin VB.Line Line2 
+      BorderColor     =   &H000000C0&
+      BorderStyle     =   2  'Dash
+      X1              =   15240
+      X2              =   15255
+      Y1              =   1200
+      Y2              =   6975
+   End
+   Begin VB.Line Line3 
+      BorderColor     =   &H000000C0&
+      BorderStyle     =   2  'Dash
+      X1              =   0
+      X2              =   15255
+      Y1              =   6960
+      Y2              =   6975
+   End
+   Begin VB.Line Line4 
+      BorderColor     =   &H000000C0&
+      BorderStyle     =   2  'Dash
+      X1              =   0
+      X2              =   15
+      Y1              =   1200
+      Y2              =   6975
+   End
+   Begin VB.Shape Shape2 
+      BorderColor     =   &H000000FF&
+      FillColor       =   &H000000FF&
+      FillStyle       =   0  'Solid
+      Height          =   1215
+      Left            =   14280
+      Shape           =   4  'Rounded Rectangle
+      Top             =   0
+      Width           =   495
+   End
+   Begin VB.Shape Shape3 
+      BorderColor     =   &H000000FF&
+      FillColor       =   &H000000FF&
+      FillStyle       =   0  'Solid
+      Height          =   495
+      Left            =   13920
+      Shape           =   4  'Rounded Rectangle
+      Top             =   360
+      Width           =   1215
+   End
+   Begin VB.Image Image1 
+      Height          =   975
+      Left            =   0
+      Picture         =   "ENTRY2.frx":030A
+      Stretch         =   -1  'True
+      Top             =   120
+      Width           =   1575
+   End
+   Begin VB.Label Label21 
+      BackStyle       =   0  'Transparent
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   2760
+      TabIndex        =   24
+      Top             =   1800
+      Width           =   3855
+   End
+   Begin VB.Label Label22 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   3240
+      TabIndex        =   23
+      Top             =   2520
+      Width           =   2775
+   End
+   Begin VB.Label Label6 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   3480
+      TabIndex        =   22
+      Top             =   3360
+      Width           =   2535
+   End
+   Begin VB.Label Label23 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   3480
+      TabIndex        =   21
+      Top             =   4200
+      Width           =   2535
+   End
+   Begin VB.Label Label24 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   3360
+      TabIndex        =   20
+      Top             =   5040
+      Width           =   2655
+   End
+   Begin VB.Label Label25 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   3480
+      TabIndex        =   19
+      Top             =   5760
+      Width           =   2655
+   End
+   Begin VB.Label Label26 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   11520
+      TabIndex        =   18
+      Top             =   1800
+      Width           =   3135
+   End
+   Begin VB.Label Label27 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   11760
+      TabIndex        =   17
+      Top             =   2640
+      Width           =   2895
+   End
+   Begin VB.Label Label28 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   11760
+      TabIndex        =   16
+      Top             =   3480
+      Width           =   2775
+   End
+   Begin VB.Label Label29 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   11400
+      TabIndex        =   15
+      Top             =   4320
+      Width           =   3255
+   End
+   Begin VB.Label Label13 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   11400
+      TabIndex        =   14
+      Top             =   5280
+      Width           =   2775
+   End
+   Begin VB.Label Label30 
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   9480
+      TabIndex        =   13
+      Top             =   5760
+      Width           =   2415
+   End
+   Begin VB.Label Label16 
+      BackStyle       =   0  'Transparent
+      Caption         =   "<<"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   24
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00C00000&
+      Height          =   495
+      Left            =   1800
+      TabIndex        =   12
+      Top             =   240
+      Width           =   735
+   End
+   Begin VB.Label Label20 
+      Height          =   5775
+      Left            =   0
+      TabIndex        =   40
+      Top             =   1200
+      Width           =   15255
+   End
+   Begin VB.Menu Refresh 
+      Caption         =   "Refresh"
+   End
+   Begin VB.Menu Search 
+      Caption         =   "Search"
+   End
+   Begin VB.Menu Update 
+      Caption         =   "Update"
+   End
+   Begin VB.Menu ADD 
+      Caption         =   "Add detail"
+   End
+   Begin VB.Menu Delete 
+      Caption         =   "Delete"
+   End
+End
+Attribute VB_Name = "entry2"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Private Sub ADD_Click()
+Dim rs As ADODB.Recordset
+Dim strsql As String
+Dim strsq As String
+With rs
+If Text1.Text = "" Then
+Label21.Caption = "Registeratiion field is empty"
+ElseIf Text2.Text = "" Then
+Label22.Caption = "Name field is empty"
+
+ElseIf Text3.Text = "" Then
+Label6.Caption = "Address field is empty"
+
+ElseIf Text4.Text = "" Then
+Label23.Caption = "status field is empty"
+
+ElseIf Text5.Text = "" Then
+Label24.Caption = "Religion field is empty"
+
+ElseIf Text6.Text = "" Then
+Label25.Caption = " name field is empty"
+
+ElseIf Text7.Text = "" Then
+Label26.Caption = "Date field is empty"
+
+ElseIf Text8.Text = "" Then
+Label27.Caption = "city field is empty"
+
+ElseIf Text9.Text = "" Then
+Label28.Caption = "Number field is empty"
+
+ElseIf Text10.Text = "" Then
+Label29.Caption = "Gender field is empty"
+
+ElseIf Text11.Text = "" Then
+Label13.Caption = "age field is empty"
+ElseIf Text12.Text = "" Then
+Label30.Caption = "DR.name is empty"
+
+Else
+
+strsq = "select patient_id from patient_entry where patient_id='" & Text1.Text & "'"
+Set rs = cn.Execute(strsq)
+If Not rs.EOF Then
+MsgBox "already have same reg entry", vbOKCancel + vbCritical, "Warning"
+Else
+strsql = "insert into patient_entry(patient_id,patient_name, patient_address,martial_status,religion,father_or_husband_name,registration_date,city,mb_number,gender,age,dr_name) values (" _
+& "'" & Text1.Text & "'," _
+& "'" & Text2.Text & "'," _
+& "'" & Text3.Text & "'," _
+& "'" & Text4.Text & "'," _
+& "'" & Text5.Text & "'," _
+& "'" & Text6.Text & "'," _
+& "'" & Text7.Text & "'," _
+& "'" & Text8.Text & "'," _
+& "'" & Text9.Text & "'," _
+& "'" & Text10.Text & "'," _
+& "'" & Text11.Text & "'," _
+& "'" & Text12.Text & "')"
+Set rs = cn.Execute(strsql)
+Set rs = Nothing
+MsgBox "Your information has been added", vbOKCancel + vbInformation, "warning"
+Text1.Text = ""
+Text2.Text = ""
+Text3.Text = ""
+Text4.Text = ""
+Text5.Text = ""
+Text6.Text = ""
+Text7.Text = ""
+Text8.Text = ""
+Text9.Text = ""
+Text10.Text = ""
+Text11.Text = ""
+Text12.Text = ""
+
+End If
+End If
+End With
+End Sub
+
+Private Sub Command1_Click()
+detail2.Show
+Unload Me
+End Sub
+
+Private Sub Delete_Click()
+Dim rs As ADODB.Recordset
+Dim strsq As String
+Dim st As String
+If Text1.Text = "" Then
+MsgBox "Include your id", vbOKCancel + vbCritical, "Warning"
+Else
+st = "select patient_id from patient_entry where patient_id= '" & Text1.Text & "'"
+Set rs = cn.Execute(st)
+If Not rs.EOF Then
+strsq = "delete from patient_entry where patient_id= '" & Text1.Text & "'"
+Set rs = cn.Execute(strsq)
+Set rs = Nothing
+MsgBox " Information has been Deleted", vbOKCancel + vbInformation, "Warning"
+Else
+MsgBox "Patient ID do not match check your ID again", vbOKCancel + vbCritical, "Warning"
+End If
+End If
+End Sub
+
+Private Sub Form_Load()
+Text1.Text = ""
+Text2.Text = ""
+Text3.Text = ""
+Text4.Text = ""
+Text5.Text = ""
+Text6.Text = ""
+Text7.Text = ""
+Text8.Text = ""
+Text9.Text = ""
+Text10.Text = ""
+Text11.Text = ""
+Text12.Text = ""
+End Sub
+
+Private Sub Label13_Click()
+Unload Me
+Home.Show
+End Sub
+
+Private Sub Label16_Click()
+Home.Show
+Unload Me
+End Sub
+
+Private Sub Refresh_Click()
+Text1.Text = ""
+Text2.Text = ""
+Text3.Text = ""
+Text4.Text = ""
+Text5.Text = ""
+Text6.Text = ""
+Text7.Text = ""
+Text8.Text = ""
+Text9.Text = ""
+Text10.Text = ""
+Text11.Text = ""
+Text12.Text = ""
+End Sub
+
+Private Sub Search_Click()
+Dim rs As ADODB.Recordset
+Dim strsql As String
+strsql = "select patient_name,patient_address,martial_status,religion,father_or_husband_name,registration_date,city,mb_number,gender,age,dr_name from patient_entry where patient_id='" & Text1.Text & "'"
+Set rs = cn.Execute(strsql)
+If Not rs.EOF Then
+Text2.Text = rs.Fields("patient_name")
+Text3.Text = rs.Fields("patient_address")
+Text4.Text = rs.Fields("martial_status")
+Text5.Text = rs.Fields("religion")
+Text6.Text = rs.Fields("father_or_husband_name")
+Text7.Text = rs.Fields("registration_date")
+Text8.Text = rs.Fields("city")
+Text9.Text = rs.Fields("mb_number")
+Text10.Text = rs.Fields("gender")
+Text11.Text = rs.Fields("age")
+Text12.Text = rs.Fields("dr_name")
+Else
+MsgBox "Record Not Found", vbOKCancel + vbCritical, "Warning"
+End If
+End Sub
+
+Private Sub Update_Click()
+Dim rs As ADODB.Recordset
+Dim strsql As String
+Dim strsq As String
+If Text1.Text = "" Then
+Label21.Caption = "Registeratiion field is empty"
+ElseIf Text2.Text = "" Then
+Label22.Caption = "Name field is empty"
+
+ElseIf Text3.Text = "" Then
+Label6.Caption = "Address field is empty"
+
+ElseIf Text4.Text = "" Then
+Label23.Caption = "status field is empty"
+
+ElseIf Text5.Text = "" Then
+Label24.Caption = "Religion field is empty"
+
+ElseIf Text6.Text = "" Then
+Label25.Caption = " name field is empty"
+
+ElseIf Text7.Text = "" Then
+Label26.Caption = "Date field is empty"
+
+ElseIf Text8.Text = "" Then
+Label27.Caption = "city field is empty"
+
+ElseIf Text9.Text = "" Then
+Label28.Caption = "Number field is empty"
+
+ElseIf Text10.Text = "" Then
+Label29.Caption = "Gender field is empty"
+
+ElseIf Text11.Text = "" Then
+Label13.Caption = "age field is empty"
+ElseIf Text12.Text = "" Then
+Label30.Caption = "DR.name is empty"
+Else
+strsq = "update patient_entry set patient_name='" & Text2.Text & "'," _
+& "patient_address='" & Text3.Text & "'," _
+& "martial_status='" & Text4.Text & "'," _
+& "religion='" & Text5.Text & "'," _
+& "father_or_husband_name='" & Text6.Text & "'," _
+& "registration_date='" & Text7.Text & "'," _
+& "city='" & Text8.Text & "'," _
+& "mb_number='" & Text9.Text & "'," _
+& "gender='" & Text10.Text & "'," _
+& "age='" & Text11.Text & "'," _
+& "dr_name='" & Text12.Text & "'"
+Set rs = cn.Execute(strsq)
+Set rs = Nothing
+MsgBox "Information has been updated", vbOKOnly + vbInformation, "Warning"
+End If
+End Sub
+
